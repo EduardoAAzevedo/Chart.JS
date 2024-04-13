@@ -1,0 +1,44 @@
+/* 
+Cor Azu: rgb(27, 135, 152)
+Cor Vermelha: rgb(214, 28, 89)
+*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 100vw;
+    height: 100vh;
+    background: #f7f3cf;
+}
+
+.father{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div_grafico{
+    width: 45vw;
+    height: 50vh;
+
+    border: 2px solid #176585;
+    border-radius: 5px;
+}
+
+.mb-2{
+    margin-bottom: 30px;
+}
+
+.mx-2{
+    margin-left: 8px;
+    margin-right: 8px;
+}
